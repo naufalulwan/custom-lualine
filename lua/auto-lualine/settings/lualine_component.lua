@@ -244,8 +244,8 @@ return {
   },
   mode_roundedall = {
     "mode",
-    padding = 1,
-    separator = { left = " ", right = "" },
+    padding = 0,
+    separator = { left = "", right = "" },
     fmt = function(str)
       if show_mode == 1 then
         return icons.Neovim .. " " .. str:sub(1, 1)

@@ -88,7 +88,7 @@ M.roundedall = function(colorscheme)
       lualine_x = { diagnostics, spaces, codeium, treesitter, "filetype" },
       lualine_y = { "progress" },
       lualine_z = {
-        { "location", separator = { right = " ", left = "" }, padding = 1 },
+        { "location", separator = { right = "", left = "" }, padding = 0 },
       },
     },
     inactive_sections = {
